@@ -25,3 +25,7 @@ security:
     client:
       client-id: mobile
       client-secret: pin
+
+logging:
+  file:
+    path: ~/Documents/Microservices/GroupProject/logs/microservice.log
