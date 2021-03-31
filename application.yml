@@ -18,13 +18,6 @@ microservice:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
         
-security:
-  oauth2:
-    resource:
-      token-info-uri: http://localhost:8989/oauth/check_token
-    client:
-      client-id: mobile
-      client-secret: pin
 
 logging:
   file:
